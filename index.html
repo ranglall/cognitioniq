@@ -1,25 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CognitionIQ - The Future of Brain Health</title>
-    <meta name="description" content="CognitionIQ is pioneering the future of brain health through innovative research and technology" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <meta name="author" content="Lovable" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CognitionIQ</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="logo-transparent.ico" type="image/png">
+  <link rel="icon" href="cognitioniq-logo.png" type="image/png">
 
-    <meta property="og:title" content="CognitionIQ - The Future of Brain Health" />
-    <meta property="og:description" content="CognitionIQ is pioneering the future of brain health through innovative research and technology" />
-    <meta property="og:type" content="website" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Corner dots -->
+  <div class="corner top-left"></div>
+  <div class="corner top-right"></div>
+  <div class="corner bottom-left"></div>
+  <div class="corner bottom-right"></div>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="CognitionIQ - The Future of Brain Health" />
-  </head>
+  <div class="container">
+    <header>
+      <img src="cognitioniq-logo.png" alt="CognitionIQ Logo" class="logo"/>
+      <p class="tagline">The Future of Brain Health</p>
+      <div class="dots">
+        <span></span><span></span><span></span>
+      </div>
+    </header>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <main>
+      <section class="story">
+        <h2>Innovation Scholars Present Research to NASA</h2>
+        <p>
+          Discover where our journey began with groundbreaking research 
+          presented to NASA.
+        </p>
+        <a class="link" href="https://news.stthomas.edu/innovation-scholars-present-research-to-nasa/" target="_blank">
+          Read our story <i class="fas fa-arrow-up-right-from-square"></i>
+        </a>
+      </section>
+
+      <div class="buttons">
+        <a href="mailto:info@cognition-iq.com" class="btn red">
+          <i class="fas fa-envelope"></i> Contact Us
+        </a>
+        <a href="https://www.linkedin.com/company/cognitioniq" target="_blank" class="btn blue">
+          <i class="fab fa-linkedin"></i> Follow on LinkedIn
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2025 CognitionIQ. The Future of Brain Health</p>
+    </footer>
+  </div>
+</body>
 </html>
